@@ -1,3 +1,6 @@
+"""
+Escribir un programa que pregunte al usuario su edad y muestre por pantalla si es mayor de edad o no."""
+
 def getName():
     """
     Solicita el nombre por consola.
@@ -11,7 +14,7 @@ def getName():
 
 def getAge():
     """
-    Solicita la edad por consola.
+    Solicita una edad por consola.
 
     Retorna
     -------
