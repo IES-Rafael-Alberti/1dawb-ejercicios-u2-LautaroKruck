@@ -24,7 +24,6 @@ def getAge():
     return int(input ("Introduce tu edad: "))
 
 def pruebaAge(age):
-    age = age
     if age >= 18:
         return True
     else:

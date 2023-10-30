@@ -4,7 +4,7 @@ Para tributar un determinado impuesto se debe ser mayor de 16 años y tener unos
 def getAge():
     """
     Solicita una edad por consola.
-
+    
     Retorna
     -------
     int     
@@ -24,14 +24,12 @@ def getIngreso():
     return int(input ("Introduce tu ingreso mensual: "))
 
 def pruebaAge(age):
-    age = age
     if age >= 16:
         return True
     else:
         return False
 
 def pruebaIngreso(ingreso):
-    ingreso = ingreso
     if ingreso >= 1000:
         return True
     else:
@@ -40,7 +38,7 @@ def pruebaIngreso(ingreso):
 def main():
     age = getAge()
     ingreso = getIngreso()
-   
+    
     if pruebaAge(age) and pruebaIngreso(ingreso):
         print("Tienes que tributar. ")
     else:
