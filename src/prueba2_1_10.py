@@ -20,7 +20,7 @@ def pedirPizza():
 def asignarPizza(pizza):
 
     if (pizza == "Y" ) or (pizza == "N" ):
-        res
+        
         return True
     else:
         return False
