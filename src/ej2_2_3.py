@@ -1,4 +1,4 @@
-from prueba2_1_4 import getNum
+from ej2_1_4 import getNum
 
 def pruebaNum(num):
     return num > 0

@@ -2,7 +2,7 @@
 Escribir un programa que pregunte al usuario su edad y muestre por pantalla todos los años que ha cumplido (desde 1 hasta su edad).
 """
 
-from prueba2_1_1 import getAge
+from ej2_1_1 import getAge
 
 def años(age):
     serie = ""
