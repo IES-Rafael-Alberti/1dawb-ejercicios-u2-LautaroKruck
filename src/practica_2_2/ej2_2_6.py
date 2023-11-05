@@ -11,20 +11,14 @@ Escribir un programa que pida al usuario un número entero y muestre por pantall
 from src.practica_2_1.ej2_1_4 import getNum
 
 
-
 def doSerie(num):
-    serie = ""
-    cont = 1
-    while cont > num :
-        serie += str(cont) * "*"
-        cont += 1
-    return serie
-
+    for i in range(1, num + 1):
+        serie = "*" * i
+        print(serie)
 
 def main():
     num = getNum()
-    serie = doSerie(num)
-    print(serie)
+    doSerie(num)
 
 if __name__ == "__main__":
     main()
