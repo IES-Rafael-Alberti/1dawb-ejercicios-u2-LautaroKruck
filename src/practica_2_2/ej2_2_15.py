@@ -3,8 +3,8 @@ Leer números enteros de teclado, hasta que el usuario ingrese el 0. Finalmente,
 """
 
 from ej2_2_14 import getNum
-    
-def main():
+
+def sumaNum(num):
     suma = 0
 
     while True:
@@ -14,8 +14,12 @@ def main():
             break
         if num > 0:
             suma += num
-
-    print(f"La suma de los números anteriores es: {suma}")
+    return suma
+    
+def main():
+    num = getNum()
+    res = sumaNum(num)
+    print(f"La suma de los números anteriores es: {res}")
 
 if __name__ == "__main__":
     main()
